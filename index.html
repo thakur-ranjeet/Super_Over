@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Over</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col">
+            <img class="profile-icon" src="aus.png.jpg" height="150px" width="150px" alt="Australia">
+            <span class="name" id="team-1-name"></span>
+            <div class="row" id="team-1-round-runs">
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+            </div>   
+        </div>
+        <div class="col">
+            <div class="row score">
+               <span id="team-1-score"></span>
+               <span>-</span>
+               <span id="team-2-score"></span>
+            </div>
+        </div>
+    <div class="col">
+        <img class="profile-icon" src="india.png.webp" height="150px" width="150px" alt="India">
+        <span class="name" id="team-2-name"></span>
+        <div class="row" id="team-2-round-runs">
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+        </div>  
+    </div>    
+</div>
+    <div class="row">
+        <button id="button" onclick="buttonClick()"></button>
+    </div>
+    <!--Result-->
+    <div class="row" id="result" hidden></div>
+</div>
+</body>
+<script src="./app.js"></script>
+</html>

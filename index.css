@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background: #0000ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background: white;
+    margin: 10%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row > span{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .row{
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.profile-icon{
+    border-radius: 50%;
+    border: 2px solid bisque;
+    margin: auto;
+}
+
+.score{
+    margin: -80px 0 0px 0;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#result{
+    background: linear-gradient(135deg, #b3b01b, #ff0404);
+    background-clip: test;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    font-weight: bold;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#button{
+  width: 300px;
+  border-radius: 25%;
+  border: none;
+  font-size: large;
+  color: white;
+  background: linear-gradient(135deg,#c02425,#f0cb35);
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+}
+
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 black;
+
+}
